@@ -1,0 +1,63 @@
+body {
+  font-family:'Trebuchet MS',sans-serif;
+  background-color: #f3a595;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.birthday-card {
+  background-color:#e6e0e0da;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+.birthday-card img {
+  border-radius: 70%;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+.birthday-card span {
+  font-size: 1.2em;
+  margin-right: 10px;
+  color: #555;
+}
+
+.birthday-card b {
+  font-size: 1.2em;
+  color: #ff6347; 
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6347; 
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff4500; 
+}
